@@ -1,0 +1,2 @@
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1Content\obj\x86\Debug\ResolveAssemblyReference.cache
