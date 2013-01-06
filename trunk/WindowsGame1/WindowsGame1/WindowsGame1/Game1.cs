@@ -8,6 +8,8 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using WindowsGame1.Managers;
+using WindowsGame1.Core;
 
 namespace WindowsGame1
 {
@@ -18,10 +20,13 @@ namespace WindowsGame1
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-
+        GameManager gameManager;
+       // TileMap tile;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            this.graphics.PreferredBackBufferWidth = 800;
+            this.graphics.PreferredBackBufferHeight = 600;
             Content.RootDirectory = "Content";
         }
 
@@ -33,8 +38,13 @@ namespace WindowsGame1
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
+            // TODO: Add your initialization logic here  
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+            gameManager = new GameManager(this, spriteBatch);
+            //Texture2D tileset = this.Content.Load<Texture2D>("map");
+           // tile = new TileMap(this,"E:\\Hoc Tap\\XNA\\GameDemo2DNetworking\\Game\\game2d-xna-networking-demo\\WindowsGame1\\WindowsGame1\\WindowsGame1\\map1.json",tileset, this.spriteBatch);
+            this.Components.Add(gameManager);
+           // this.Components.Add(tile);
             base.Initialize();
         }
 
@@ -45,7 +55,7 @@ namespace WindowsGame1
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+           
 
             // TODO: use this.Content to load your game content here
         }
@@ -66,11 +76,21 @@ namespace WindowsGame1
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
-                this.Exit();
+           
 
             // TODO: Add your update logic here
+            KeyboardState state = Keyboard.GetState();
+
+             // Allows the game to exit
+            if ((GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)||state.IsKeyDown(Keys.Escape))
+                this.Exit();
+
+            // Allows the game to FullScreen
+            if ((state.IsKeyDown(Keys.LeftControl)||state.IsKeyDown(Keys.RightControl))&&state.IsKeyDown(Keys.Enter))
+            {
+                this.graphics.ToggleFullScreen();
+            }
+
 
             base.Update(gameTime);
         }
@@ -84,7 +104,7 @@ namespace WindowsGame1
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+         
             base.Draw(gameTime);
         }
     }
