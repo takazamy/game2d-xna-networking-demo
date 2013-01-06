@@ -1,0 +1,22 @@
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\SplashScreen.xnb
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\flares.xnb
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\EXIT.xnb
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\map.xnb
+E:\Hoc Tap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Newtonsoft.Json.dll
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\SplashScreen.xnb
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\flares.xnb
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\EXIT.xnb
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\map.xnb
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Newtonsoft.Json.dll
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb

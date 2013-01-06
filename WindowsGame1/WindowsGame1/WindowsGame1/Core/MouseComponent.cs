@@ -10,45 +10,21 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
 
-namespace WindowsGame1.GameObjects
+namespace WindowsGame1.Core
 {
     /// <summary>
     /// This is a game component that implements IUpdateable.
     /// </summary>
-    public class Character : Microsoft.Xna.Framework.DrawableGameComponent
+    public class MouseComponent : Microsoft.Xna.Framework.DrawableGameComponent
     {
-
-        #region Properties
         SpriteBatch spriteBatch;
-        public int hp;
-        public int damage;
-        public Vector2 location;
-        public Vector2 moveDirection;
-        public Vector2 shootDirection;
-        public Vector2 lookDirection;
-        protected Texture2D body;
-        protected Texture2D head;
-        public Boolean isMe;
-        #endregion
-
-        #region Contructors
-        public Character(Game game, SpriteBatch spriteBatch)
+        public MouseComponent(Game game, SpriteBatch spriteBatch)
             : base(game)
         {
             this.spriteBatch = spriteBatch;
             // TODO: Construct any child components here
         }
 
-        public Character(Game game, SpriteBatch spriteBatch, Vector2 Location,int HP, int Damage)
-            : base(game)
-        {
-            this.spriteBatch = spriteBatch;
-            this.location = Location;
-            this.hp = HP;
-            this.damage = Damage;
-            // TODO: Construct any child components here
-        }
-        #endregion
         /// <summary>
         /// Allows the game component to perform any initialization it needs to before starting
         /// to run.  This is where it can query for any required services and load content.
@@ -62,7 +38,6 @@ namespace WindowsGame1.GameObjects
 
         protected override void LoadContent()
         {
-
             base.LoadContent();
         }
         /// <summary>
