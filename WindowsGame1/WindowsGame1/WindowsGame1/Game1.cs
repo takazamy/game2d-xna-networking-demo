@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using WindowsGame1.Managers;
 using WindowsGame1.Core;
+using WindowsGame1.GameObjects;
 
 namespace WindowsGame1
 {
@@ -21,6 +22,8 @@ namespace WindowsGame1
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         GameManager gameManager;
+        MouseComponent gameMouse;
+        Character c;
        // TileMap tile;
         public Game1()
         {
@@ -40,10 +43,17 @@ namespace WindowsGame1
         {
             // TODO: Add your initialization logic here  
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            gameManager = new GameManager(this, spriteBatch);
+           
+           // gameManager = new GameManager(this, spriteBatch);
+            gameMouse = new MouseComponent(this, this.spriteBatch);
+            gameMouse.DrawOrder = 1;
+            c = new Character(this, this.spriteBatch, new Vector2(200, 200), 100, 10);
             //Texture2D tileset = this.Content.Load<Texture2D>("map");
-           // tile = new TileMap(this,"E:\\Hoc Tap\\XNA\\GameDemo2DNetworking\\Game\\game2d-xna-networking-demo\\WindowsGame1\\WindowsGame1\\WindowsGame1\\map1.json",tileset, this.spriteBatch);
-            this.Components.Add(gameManager);
+            //tile = new TileMap(this,"E:\\Hoc Tap\\XNA\\GameDemo2DNetworking\\Game\\game2d-xna-networking-demo\\WindowsGame1\\WindowsGame1\\WindowsGame1\\map1.json",tileset, this.spriteBatch);
+            this.Components.Add(gameMouse);
+            this.Components.Add(c);
+           // this.Components.Add(gameManager);
+            
            // this.Components.Add(tile);
             base.Initialize();
         }
@@ -76,12 +86,10 @@ namespace WindowsGame1
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-           
-
             // TODO: Add your update logic here
             KeyboardState state = Keyboard.GetState();
 
-             // Allows the game to exit
+            // Allows the game to exit
             if ((GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)||state.IsKeyDown(Keys.Escape))
                 this.Exit();
 
@@ -90,7 +98,6 @@ namespace WindowsGame1
             {
                 this.graphics.ToggleFullScreen();
             }
-
 
             base.Update(gameTime);
         }

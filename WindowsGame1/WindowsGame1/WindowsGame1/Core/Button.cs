@@ -19,11 +19,15 @@ namespace WindowsGame1.Core
     {
         SpriteBatch spriteBatch;
         Texture2D buttonImage;
+        String name;
         public Global.ButtonState state;
-        public Button(Game game, SpriteBatch spriteBatch)
+        Vector2 location = Vector2.Zero;
+        public Button(Game game, SpriteBatch spriteBatch, String name, Vector2 location)
             : base(game)
         {
             this.spriteBatch = spriteBatch;
+            this.name = name;
+            this.location = location;
             // TODO: Construct any child components here
         }
 
@@ -39,7 +43,7 @@ namespace WindowsGame1.Core
         }
         protected override void LoadContent()
         {
-            buttonImage = this.Game.Content.Load<Texture2D>("EXIT");
+            buttonImage = this.Game.Content.Load<Texture2D>(name);
             base.LoadContent();
         }
 
@@ -57,7 +61,7 @@ namespace WindowsGame1.Core
         public override void Draw(GameTime gameTime)
         {
             spriteBatch.Begin();
-
+            spriteBatch.Draw(this.buttonImage, location, Color.White);
             spriteBatch.End();
             base.Draw(gameTime);
         }

@@ -20,3 +20,6 @@ E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\
 E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
 E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\body.xnb
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\head.xnb
+E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\crosshair.xnb
