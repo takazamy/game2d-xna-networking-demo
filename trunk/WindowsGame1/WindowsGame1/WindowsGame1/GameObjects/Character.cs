@@ -107,11 +107,11 @@ namespace WindowsGame1.GameObjects
             }
             if (keystate.IsKeyDown(Keys.A))
             {
-                
+                location += new Vector2(moveDirection.Y, -moveDirection.X);
             }
             if (keystate.IsKeyDown(Keys.D))
             {
-
+                location += new Vector2(-moveDirection.Y, moveDirection.X);
             }
             base.Update(gameTime);
         }
