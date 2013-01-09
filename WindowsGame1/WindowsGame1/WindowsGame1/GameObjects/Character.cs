@@ -71,13 +71,13 @@ namespace WindowsGame1.GameObjects
             body = this.Game.Content.Load<Texture2D>("body");
             head = this.Game.Content.Load<Texture2D>("head");
             Center = new Vector2(this.body.Width / 2, this.body.Height / 2);
-            Vector2 Dest = new Vector2(Mouse.GetState().X - this.location.X, Mouse.GetState().Y - this.location.Y);
-            headRotation = Global.GetSignedAngleBetween2DVectors(shootDirection, Dest, new Vector2(Dest.Y, -Dest.X));
-            spriteBatch.Begin();
-            this.spriteBatch.Draw(this.head, location, null, Color.White, (float)headRotation,
-                new Vector2(this.head.Bounds.Center.X, this.head.Bounds.Center.Y), 1, SpriteEffects.None, 1);
+            //Vector2 Dest = new Vector2(Mouse.GetState().X - this.location.X, Mouse.GetState().Y - this.location.Y);
+            //headRotation = Global.GetSignedAngleBetween2DVectors(shootDirection, Dest, new Vector2(Dest.Y, -Dest.X));
+            //spriteBatch.Begin();
+            //this.spriteBatch.Draw(this.head, location, null, Color.White, (float)headRotation,
+            //    new Vector2(this.head.Bounds.Center.X, this.head.Bounds.Center.Y), 1, SpriteEffects.None, 1);
 
-            spriteBatch.End();
+            //spriteBatch.End();
 
             base.LoadContent();
         }
@@ -94,13 +94,24 @@ namespace WindowsGame1.GameObjects
             
             
             KeyboardState keystate = Keyboard.GetState();
+           
+            moveDirection = shootDirection;
+            moveDirection.Normalize();
             if (keystate.IsKeyDown(Keys.S))
             {
-                location.Y++;
+                location-= moveDirection;
             }
             if (keystate.IsKeyDown(Keys.W))
             {
-                location.Y--;
+                location += moveDirection; 
+            }
+            if (keystate.IsKeyDown(Keys.A))
+            {
+                
+            }
+            if (keystate.IsKeyDown(Keys.D))
+            {
+
             }
             base.Update(gameTime);
         }
@@ -108,11 +119,10 @@ namespace WindowsGame1.GameObjects
         public override void Draw(GameTime gameTime)
         {
             this.spriteBatch.Begin();
-            this.spriteBatch.Draw(this.body, location ,null,Color.White,(float)headRotation,
-                new Vector2(this.Center.X, this.Center.Y), 1,SpriteEffects.None,1);
+            this.spriteBatch.Draw(this.body, new Rectangle((int)location.X,(int)location.Y,50,50),null ,Color.White,(float)headRotation,  new Vector2(this.Center.X, this.Center.Y),SpriteEffects.None,1);
             //this.spriteBatch.Draw(this.head, new Vector2(location.X - this.head.Bounds.Center.X, location.Y - this.head.Bounds.Center.Y), Color.White);
-            this.spriteBatch.Draw(this.head,location, null, Color.White, (float)headRotation,
-                new Vector2( this.head.Bounds.Center.X, this.head.Bounds.Center.Y), 1, SpriteEffects.None, 1);
+            this.spriteBatch.Draw(this.head,new Rectangle((int)location.X,(int)location.Y,25,25), null, Color.White, (float)headRotation,
+                new Vector2( this.head.Bounds.Center.X, this.head.Bounds.Center.Y), SpriteEffects.None, 1);
 
             this.spriteBatch.End();
             base.Draw(gameTime);

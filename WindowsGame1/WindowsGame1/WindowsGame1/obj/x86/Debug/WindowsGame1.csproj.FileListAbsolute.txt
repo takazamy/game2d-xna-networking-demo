@@ -23,3 +23,17 @@ E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\
 E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\body.xnb
 E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\head.xnb
 E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\crosshair.xnb
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\map1.json
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\SplashScreen.xnb
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\flares.xnb
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\EXIT.xnb
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\map.xnb
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\body.xnb
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\head.xnb
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\crosshair.xnb
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.csprojResolveAssemblyReference.cache
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
