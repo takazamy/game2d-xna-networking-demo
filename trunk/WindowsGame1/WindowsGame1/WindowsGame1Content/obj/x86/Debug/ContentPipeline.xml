@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\SplashScreen.xnb</Output>
-      <Time>2012-12-27T23:36:11.8835949+07:00</Time>
+      <Output>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\SplashScreen.xnb</Output>
+      <Time>2013-01-07T19:49:22.9691888+07:00</Time>
     </Item>
     <Item>
       <Source>flares.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\flares.xnb</Output>
-      <Time>2012-12-30T16:16:49.2254165+07:00</Time>
+      <Output>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\flares.xnb</Output>
+      <Time>2013-01-07T19:49:19.8330094+07:00</Time>
     </Item>
     <Item>
       <Source>EXIT.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\EXIT.xnb</Output>
-      <Time>2012-12-30T16:34:34.9384988+07:00</Time>
+      <Output>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\EXIT.xnb</Output>
+      <Time>2013-01-07T19:49:22.9671887+07:00</Time>
     </Item>
     <Item>
       <Source>map.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\map.xnb</Output>
-      <Time>2012-12-31T16:38:04.4974264+07:00</Time>
+      <Output>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\map.xnb</Output>
+      <Time>2013-01-07T19:49:19.8380097+07:00</Time>
     </Item>
     <Item>
       <Source>body.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\body.xnb</Output>
-      <Time>2013-01-08T22:13:41.7759787+07:00</Time>
+      <Output>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\body.xnb</Output>
+      <Time>2013-01-09T19:46:10.2237076+07:00</Time>
     </Item>
     <Item>
       <Source>head.png</Source>
@@ -52,20 +52,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\head.xnb</Output>
-      <Time>2013-01-06T09:54:29.3780508+07:00</Time>
+      <Output>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\head.xnb</Output>
+      <Time>2013-01-09T19:46:10.2277079+07:00</Time>
     </Item>
     <Item>
       <Source>crosshair.png</Source>
       <Name>crosshair</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
-      </Parameters>
       <Options>None</Options>
-      <Output>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\crosshair.xnb</Output>
-      <Time>2013-01-06T18:19:34.6072666+07:00</Time>
+      <Output>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\crosshair.xnb</Output>
+      <Time>2013-01-09T19:57:47.1915719+07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -73,10 +70,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1Content\</RootDirectory>
-      <LoggerRootDirectory>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\HocTap\XNA\GameDemo2DNetworking\Game\game2d-xna-networking-demo\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1Content\</RootDirectory>
+      <LoggerRootDirectory>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Phu\Project\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -105,7 +102,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-12-08T21:20:17.2814196+07:00</Value>
+        <Value>2012-04-18T08:48:24.7802208+07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
